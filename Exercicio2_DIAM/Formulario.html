@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Festas Talentos iscte</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+<header>
+
+    <figure>
+        <a href="https://www.iscte-iul.pt/" >
+            <img class="iscte" src='Imagens/iscte_logo.png'> </a>
+
+    </figure>
+    <nav>
+        <ul>
+            <li><a href="pagina_principal.html">Home</a></li>
+            <li><a href="sobre_nos.html">Sobre Nós</a></li>
+            <li><a href="Formulario.html">Formulário de Inscrição</a> </li>
+            <li><a href="contactos.html">Contactos</a></li>
+
+
+
+        </ul>
+
+    </nav>
+    <a href="https://twitter.com/ISCTEIUL" target="_blank"> <img class="twitter" src='Imagens/twitter.jpg' > </a>
+    <a href="https://www.instagram.com/iscte_iul/" target ="_blank"> <img class="instagram" src='Imagens/instagram.jpg' > </a>
+    <a href="https://www.facebook.com/ISCTEIUL/?locale=pt_PT" target ="_blank"> <img class="facebook" src='Imagens/facebook.png' > </a>
+</header>
+
+<main>
+     <!-- The sidebar -->
+<aside>
+    <div class="sidebar">
+  <a class="active" href="noticias.html">Notícias</a>
+  <a href="link_festas.html">Links para Festas</a>
+  <a href="performances.html">Performances</a>
+
+</div>
+
+<!-- Page content -->
+<section>
+
+ <h1 class="formulario">Formulário de inscrição</h1>
+<div class="container">
+<div class="row">
+
+<div class="column">
+    <form name="formulario_propostas" action="pagPropostras.html">
+     <fieldset>
+      <legend style="margin-left: -2px">Propostas de Performance Artística</legend>
+
+      <label for="name"> Nome: </label>
+      <input type="text"  id="name" name="name" size ="50" placeholder="Primeiro Nome"><br><br>
+
+      <label for="date"> Data Nascimento: </label>
+      <input type="date"  id="date" name="date" size ="50" ><br><br>
+
+      <label for="numero">Nº aluno: </label>
+      <input type="number" id="numero" name="numero" placeholder="Número de aluno"><br><br>
+
+      <label for="email"> Email: </label>
+      <input type="email"  id="email" name="email" size ="50" placeholder="Indroduza o seu email"><br><br>
+
+      <label for="color"> Cor: </label>
+      <input type="color"  id="color" name="color" size ="50"><br><br>
+
+      <label for="PersonalPage"> Página pessoal: </label>
+      <input type="url"  id="PersonalPage" name="PersonalPage" size ="50" placeholder="Indroduza a sua Página Pessoal"><br><br>
+
+      <label for="Cellphone"> Telemovel: </label>
+      <input type="tel"  id="Cellphone" name="tel" size ="50" placeholder="Indroduza o seu Número de Telemóvel"><br><br>
+
+      <label for="contactos">Contactos:</label>
+      <input type="text" id="contactos" name="contactos" placeholder="Introduza o seu Contacto"><br><br>
+
+      <label for="performance-choice">Escolha uma atuação:</label>
+        <input list="Lista-atuacao" id="performance-choice" name="performance-choice">
+
+        <datalist id="Lista-atuacao">
+            <option value="canto">
+            <option value="dança">
+            <option value="malabarismo">
+            <option value="stand-up">
+        </datalist>
+      <br><br>
+
+     <!-- <input type="text" id="performance" name=performance" size=50"><br>-->
+      <textarea rows="6" cols="50" placeholder="Descrição de performance"></textarea><br>
+      <label for="horario">Disponibilidade de Horário:</label><br>
+      <label for="horario">Horário 1 - 8 - 9 Horas</label>
+      <input type="radio" id="horario" name="horario"><br>
+         <label for="horario2">Horário 2 - 10 - 11 Horas</label>
+      <input type="radio" id="horario2" name="horario2"><br>
+         <label for="horario3">Horário 3 - 12 - 13 Horas</label>
+      <input type="radio" id="horario3" name="horario3"><br>
+         <label for="horario4">Horário 4 - 14 - 15 Horas</label>
+      <input type="radio" id="horario4" name="horario4"><br><br>
+
+      <input type="button" value="Submit" onclick="location.href='pagina_principal.html'">
+      <input type="reset" value="Reset">
+         </fieldset>
+    </form>
+</div>
+</div>
+</div>
+
+</section>
+</aside>
+</main>
+
+<footer class="footer">
+    
+    <p>copyright &copy;, designed by André, Nicholas, Henrique</p>
+
+</footer>
+
+
+</body>
+
+</html>
