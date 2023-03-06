@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DIAM</title>
+  <style>
+
+fieldset {
+  background-color: #eeeeee;
+}
+
+legend {
+  background-color: gray;
+  color: white;
+  padding: 5px 10px;
+}
+table {
+    margin-top: -280px;
+    margin-left:500px
+}
+input {
+  margin: 5px;
+}
+
+
+</style>
+
+
+</head>
+<body>
+
+    <a href="https://www.iscte-iul.pt/">
+       <center>  <img src='Imagens/rgb_iscte_pt_horizontal_positive.jpg' height="180" width="500">
+    </center> </a>
+<hr>
+
+<h1>Formulário de inscrição</h1>
+
+
+<form name="formulario_propostas" action="pagPropostras.html">
+ <fieldset>
+  <legend>Propostas de Performance Artística</legend>
+  <label for="name"> Nome: </label>
+  <input type="text"  id="name" name="name" size ="50"><br><br>
+  <label for="numero">Nº aluno: </label>
+  <input type="text" id="numero" name="numero"><br><br>
+  <label for="contactos">Contactos:</label>
+  <input type="text" id="contactos" name="contactos"><br><br>
+  <label for="performance"> Performance que quer realizar:</label><br>
+     <select name="performance" >
+   <option value="canto">Canto</option>
+   <option value="danca">Dança</option>
+   <option value="malabarismo">Malabarismo</option>
+   <option value="stand-up">Stand-up Comedy</option>
+  </select><br><br><br>
+ <!-- <input type="text" id="performance" name=performance" size=50"><br>-->
+  <textarea type="text" rows="6" cols="50" placeholder="Descrição de performance"></textarea><br>
+  <label for="horario">Disponibilidade de Horário:</label><br>
+  <label for="horario">Horário 1 - 8 - 9 Horas</label>
+  <input type="radio" id="horario" name="horario"><br>
+     <label for="horario2">Horário 2 - 10 - 11 Horas</label>
+  <input type="radio" id="horario2" name="horario2"><br>
+     <label for="horario3">Horário 3 - 12 - 13 Horas</label>
+  <input type="radio" id="horario3" name="horario3"><br>
+     <label for="horario4">Horário 4 - 14 - 15 Horas</label>
+  <input type="radio" id="horario4" name="horario4"><br><br>
+
+     <table border ="3">
+         <tr> <!--table row -->
+             <th>Propostas aceites</th> <!-- table header-->
+             <th>Descrição de proposta </th>
+             <th>Data</th>
+             <th>Júri</th>
+             <th>Prémio</th>
+         </tr>
+         <tr>
+             <td> Prova de canto </td>
+             <td> Estilos de canto admitidos: RAP, TRAP, POP, FADO</td>
+             <td> 10/02/2023</td>
+             <td> Agir & Aurea & Marisa Liz</td>
+             <td> Gravação de disco na Sony Music Portugal</td>
+         </tr>
+         <tr>
+             <td> Prova de dança</td>
+             <td> Estilos de dança admitidos: HIP-HOP, Valsa, ZUMBA, tango</td>
+             <td>11/02/2023</td>
+             <td> Vítor Fonseca "Cifrão"</td>
+             <td> Entrada na crew de Vítor Fonseca</td>
+         </tr>
+         <tr>
+             <td> Prova de malabarismo</td>
+             <td> Objetos cortantes não são permitidos</td>
+             <td> 12/02/2023</td>
+             <td> Prof. Pedro Coates (Sporting Club de Portugal)</td>
+             <td> Atuação no Circo Cardinalli</td>
+         </tr>
+         <tr>
+             <td> Prova de stand-up comedy</td>
+             <td> Comentários ofensivos/homofóbicos/racistas não são toleráveis
+             ,levanto imeadiatamente a desqualificação do concorrente e está
+             sujeito a um processo disciplinar</td>
+             <td>13/02/2023</td>
+             <td> Gilmário Vemba & Ricardo Araújo Pereira</td>
+             <td> Participação no "Isto é Gozar com Quem trabalha"</td>
+         </tr>
+     </table>
+ </fieldset>
+    <input type="submit" value="Submit">
+
+      <h3>Contactos da organização</h3>
+     <h4>Caso necessite de ajuda não hesite em contactar-nos!</h4>
+     <ul>
+     <li>+351924179046</li>
+     <li><a href="https://twitter.com/ISCTEIUL" target ="_blank"> Twitter</a></li>
+     <li><a href="https://www.facebook.com/ISCTEIUL/?locale=pt_PT" target ="_blank"> Facebook</a></li>
+     <li><a href="https://www.instagram.com/iscte_iul/" target ="_blank"> Instagram</a></li>
+    </ul>
+
+    <h2>Links Associados</h2>
+    <ul>
+        <li><a href="https://boomfestival.org/boom2023/" target ="_blank"> BOOM Festival</a></li>
+        <li><a href="https://rockinrio.com/rio/pt-br/home/" target ="_blank"> RockInRio Festival</a></li>
+        <li><a href="https://festivalpanda.canalpanda.pt/" target ="_blank"> Panda Festival</a></li>
+    </ul>
+
+
+
+</form>
+
+ <video width="500" height="290" controls loop>
+         <source src ="Imagens/intro.mp4" type="video/mp4"/>
+ </video>
+
+</body>
+
+
+</html>
